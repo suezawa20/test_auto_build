@@ -1,8 +1,8 @@
 name: learn-github-actions
 on: [push]
+
 jobs:
-check-bats-version:
-name:hello world job
+validation:
 runs-on: ubuntu-latest
 steps:
 - run: echo "Hello World"
